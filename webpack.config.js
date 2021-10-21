@@ -46,9 +46,6 @@ module.exports = {
     }),
   ],
   devServer: {
-    allowedHosts: path.join(__dirname, "dist"),
-    port: 3000,
-    compress: true,
     historyApiFallback: true,
   },
 };
